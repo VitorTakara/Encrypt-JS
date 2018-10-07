@@ -1,11 +1,11 @@
 # Encrypt-JS
-Encriptação Javascript
+[Encriptação Javascript](https://vitortakara.github.io/Encrypt-JS/)
 
 # This is Just4Fun!
 Eu e @FelipeMonteiro fizemos este código para nos comunicarmos no trabalho a partir de encriptação javascript
 
 # Arquivos
- - Temos uma DEMO para você testar
+ - Temos uma [DEMO](https://vitortakara.github.io/Encrypt-JS/) para você testar
  - Download do projeto completo
  - dentro da pasta "/download", temos uma minificação de tudo. (Para facilitar o compartilhamento)
  
