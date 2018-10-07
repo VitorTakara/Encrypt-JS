@@ -1,5 +1,5 @@
-# Encrypt-JS
-[Encriptação Javascript](https://vitortakara.github.io/Encrypt-JS/)
+# Encrypt-JS 
+[Encriptação Javascript](https://vitortakara.github.io/Encrypt-JS/) :shipit:
 
 # This is Just4Fun!
 Eu e @FelipeMonteiro fizemos este código para nos comunicarmos no trabalho a partir de encriptação javascript
@@ -26,10 +26,10 @@ Eu e @FelipeMonteiro fizemos este código para nos comunicarmos no trabalho a pa
  
  Exemplos:
  
- Teste -> VkdWemRHVT0qMQ==
- Teste*2 -> VmtkV2VtUkhWVDA9KjI=
- Teste*5 -> Vm0weE1HRXhXWGxXYmxKV1lUSm9XRlpyVWtKUFVUMDkqNQ==
- ...
+ - Teste -> VkdWemRHVT0qMQ==
+ - Teste*2 -> VmtkV2VtUkhWVDA9KjI=
+ - Teste*5 -> Vm0weE1HRXhXWGxXYmxKV1lUSm9XRlpyVWtKUFVUMDkqNQ==
+ - ...
  
  A desencriptação de qualquer encriptação usando a key "*" acabará sendo a mesma. ;)
  
