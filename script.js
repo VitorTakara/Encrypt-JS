@@ -1,5 +1,5 @@
 function decrypt(msg = '', times = 1) {
-    for (var i = 0; i < times; i++) 
+    for (var i = 0; i < times; i++)  
         msg = atob(msg);
     document
         .querySelector('.search-bar')
