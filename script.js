@@ -58,8 +58,10 @@ function copyStringToClipboard(str) {
 }
 
 // Just Audio
-let x = document.getElementById("myAudio"); 
+document.addEventListener("DOMContentLoaded", function(event) {
+    let audio_ = document.getElementById("izaki_audio"); 
 
-function playAudio() { 
-    x.play(); 
-} 
+    function playAudio() { 
+        audio_.play(); 
+    } 
+});
