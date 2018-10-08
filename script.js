@@ -56,12 +56,3 @@ function copyStringToClipboard(str) {
         .body
         .removeChild(el);
 }
-
-// Just Audio
-document.addEventListener("DOMContentLoaded", function(event) {
-    let audio_ = document.getElementById("izaki_audio"); 
-
-    function playAudio() { 
-        audio_.play(); 
-    } 
-});
