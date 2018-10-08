@@ -1,5 +1,5 @@
 function decrypt(msg = '', times = 1) {
-    for (var i = 0; i < times; i++)  
+    for (let i = 0; i < times; i++)  
         msg = atob(msg);
     document
         .querySelector('.search-bar')
@@ -7,7 +7,7 @@ function decrypt(msg = '', times = 1) {
 }
 
 function encrypt(msg = '', times = 1) {
-    for (var i = 0; i < times; i++) 
+    for (let i = 0; i < times; i++) 
         msg = btoa(msg);
     copyStringToClipboard(btoa(msg + '*' + times));
     document
@@ -17,7 +17,7 @@ function encrypt(msg = '', times = 1) {
 
 // Botão "Pesquisa Google"
 function encryptService() {
-    var msg = document
+    let msg = document
         .querySelector('.search-bar')
         .value
         .split("*");
@@ -34,13 +34,13 @@ function encryptService() {
 
 // Botão "Estou com sorte"
 function desencryptService() {
-    var msg = atob(document.querySelector('.search-bar').value).split("*");
+    let msg = atob(document.querySelector('.search-bar').value).split("*");
     decrypt(msg[0], msg[1] || 1);
 }
 
 // Copia para a área de transferência (ctrl + v)
 function copyStringToClipboard(str) {
-    var el = document.createElement('textarea');
+    let el = document.createElement('textarea');
     el.value = str;
     el.setAttribute('readonly', '');
     el.style = {
@@ -56,3 +56,10 @@ function copyStringToClipboard(str) {
         .body
         .removeChild(el);
 }
+
+// Just Audio
+let x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+    x.play(); 
+} 
