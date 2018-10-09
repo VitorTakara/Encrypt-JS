@@ -21,16 +21,12 @@ function encryptService() {
         .querySelector('.search-bar')
         .value
         .split("*");
-    // Se o input ter mais de 15 caracteres seguidos, significa que o usuário clicou
-    // no botão errado. Mas este sistema é inteligente e ele irá desencryptar ;)
-    if (!/[.\S]{15}/.test(msg)) {
-        encrypt(msg[0], msg[1] || 1);
+    
+    encrypt(msg[0], msg[1] || 1);
         document
             .querySelector('.search-bar')
             .value = "";
-    } else 
-        desencryptService();
-    }
+}
 
 // Botão "Estou com sorte"
 function desencryptService() {
