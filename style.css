@@ -100,14 +100,13 @@ button {
 
 .search input:focus, .search input:hover{
 	outline: none;
-	border: none;
 	box-shadow: 0px 2px 6px #cdcdcd;
 }
 
 .search button {
 	border-radius: 3px;
 	border: 1px solid #f3f3f3;
-	transition: .2s;
+	transition: .5s;
 	background: #f3f3f3;
     	padding: 11px 15px;
     	color: #696969;
