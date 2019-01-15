@@ -2,7 +2,7 @@
 [Encriptação Javascript](https://vitortakara.github.io/Encrypt-JS/) :shipit:
 
 # This is Just4Fun!
-Eu e @FelipeMonteiro fizemos em um dia este código para nos comunicarmos no trabalho a partir de encriptação javascript.
+Eu e @FelipeMonteiro fizemos em um dia este código para nos comunicarmos a partir de encriptação javascript.
 Colocamos a interface do Google, porque qualquer coisa... ESTAMOS NO GOOGLE! :ok_hand:
 
 # Arquivos Encrypt-JS
